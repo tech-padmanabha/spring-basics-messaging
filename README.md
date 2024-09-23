@@ -5,19 +5,19 @@
 ### Apache-Server start process
 
 **Run the apache-kafka in docker**
-[+] Get the Docker image of Apache Kafka Docker Image from docker hub.
++ Get the Docker image of Apache Kafka Docker Image from docker hub.
 
 ```command
 $docker pull apache/kafka:3.8.0
 ```
 
-[+] Run the Apache-kafka (Zookeper will run there)
++ Run the Apache-kafka (Zookeper will run there)
 
 ```
 docker run -p 9092:9092 apache/kafka:3.8.0
 ```
 
-[!NOTE]
+> [!NOTE]
 
 > download apache-kafka tar file and set the apache kafka bin into `classpath` then directly run this commands
 
@@ -61,16 +61,16 @@ Consumer group 'second-group' has no active members.
 
 |second-group ||quickstart-events || 0 ||26 || 28 || 2 || - || - || - |
 
-[!NOTE]
+> [!NOTE]
 
 > here lag-2 means we din't read 2 messages now we can read,if we run the second-group the two LAG will print there
 
-[+] here if we run the describe group second-group then the LAG will 0
-[+] we can --reset the groups as well
++ here if we run the describe group second-group then the LAG will 0
++ we can --reset the groups as well
 
 ## Java
 
-Kafka Producer -> 1. configuration
+Kafka Producer ->  configuration
 i. key.serializer
 ii.value.serializer
 iii. bootstrap.servers
