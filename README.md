@@ -2,6 +2,9 @@
 
 ## First Work with Apache-Server and Zookeper
 
+> [!IMPORTANT]
+> [If you want to know about how apacke-kafka works](./INTERNALS.md)
+
 ### Apache-Server start process
 
 **Run the apache-kafka in docker**

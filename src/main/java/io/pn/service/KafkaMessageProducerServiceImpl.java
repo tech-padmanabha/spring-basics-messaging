@@ -22,6 +22,16 @@ public class KafkaMessageProducerServiceImpl {
 		kafkaTemplate.send(topic, data);
 	}
 	
+//	public void sendMessage(String topic,CricketScore data) {
+//		String writeValueAsString = null;
+//		try {
+//			writeValueAsString = mapper.writeValueAsString(data);
+//		} catch (JsonProcessingException e) {
+//			e.printStackTrace();
+//		}
+//		kafkaTemplate.send(topic, writeValueAsString);
+//	}
+	
 	public void sendMessage(String topic,CricketScore data) {
 		String writeValueAsString = null;
 		try {
