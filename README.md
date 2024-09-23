@@ -56,9 +56,9 @@ Now we are going to use groups to read the messages
 
 Consumer group 'second-group' has no active members.
 
-|GROUP ||TOPIC ||PARTITION ||CURRENT-OFFSET || LOG-END-OFFSET|| LAG || CONSUMER-ID || HOST || CLIENT-ID |
+|GROUP |TOPIC |PARTITION |CURRENT-OFFSET | LOG-END-OFFSET| LAG | CONSUMER-ID | HOST | CLIENT-ID |
 
-|second-group ||quickstart-events || 0 ||26 || 28 || 2 || - || - || - |
+|second-group |quickstart-events | 0 |26 | 28 | 2 | - | - | - |
 
 > [!NOTE]
 
