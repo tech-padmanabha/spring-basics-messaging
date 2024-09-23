@@ -36,3 +36,11 @@ Example: ```Topic-A with 2 partitions and replication factor of 2```
 
 + Example we lost Broker 102
 + Result: Broker 101 and 103 can still server the data
+
+## Concept of Leader for a Partition
++ ***At any time only `ONE` broker can be a leader for a given partition***
++ ***Only that leader can receive and serve data for a partition***
++ The other brokers will synchronize the data
++ Therefore each partition has one leader and multiple ISR `(in-sync replica)`
+
+## Producers
