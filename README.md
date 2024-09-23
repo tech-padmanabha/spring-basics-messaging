@@ -18,7 +18,6 @@ docker run -p 9092:9092 apache/kafka:3.8.0
 ```
 
 > [!NOTE]
-
 > download apache-kafka tar file and set the apache kafka bin into `classpath` then directly run this commands
 
 **To create a toppic**
