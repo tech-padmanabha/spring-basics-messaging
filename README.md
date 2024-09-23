@@ -18,7 +18,7 @@ docker run -p 9092:9092 apache/kafka:3.8.0
 ```
 
 > [!NOTE]
-> download apache-kafka tar file and set the apache kafka bin into `classpath` then directly run this commands
+> Download apache-kafka tar file and set the apache kafka bin into `classpath` then directly run this commands
 
 **To create a toppic**
 
@@ -61,8 +61,7 @@ Now we are going to use groups to read the messages
 |second-group |quickstart-events | 0 |26 | 28 | 2 | - | - | - |
 
 > [!NOTE]
-
-> here lag-2 means we din't read 2 messages now we can read,if we run the second-group the two LAG will print there
+> Here lag-2 means we din't read 2 messages now we can read,if we run the second-group the two LAG will print there
 
 + here if we run the describe group second-group then the LAG will 0
 + we can --reset the groups as well
